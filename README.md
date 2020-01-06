@@ -1,3 +1,7 @@
+# Manuel's Magic Mirror
+When deploying assets, modules need to be added manually since each is it's own
+git repo that needs to be cloned.
+
 ![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
 
 <p align="center">
