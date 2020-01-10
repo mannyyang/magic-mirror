@@ -66,9 +66,9 @@ var config = {
       module: 'calendar_monthly',
       position: 'top_left',
       config: {
-          // The config property is optional
-          // Without a config, a default month view is shown
-          // Please see the 'Configuration Options' section for more information
+        // The config property is optional
+        // Without a config, a default month view is shown
+        // Please see the 'Configuration Options' section for more information
       }
     },
     {
@@ -143,6 +143,18 @@ var config = {
           //   label: 'March Madness'
           // }
         ]
+      }
+    },
+    {
+      module: 'MMM-Admin-Interface'
+    },
+    {
+      module: 'MMM-Remote-Control',
+      // uncomment the following line to show the URL of the remote control on the mirror
+      // , position: 'bottom_left'
+      // you can hide this module afterwards from the remote control itself
+      config: {
+        showModuleApiMenu: true // Optional, Enable the Module Controls menu
       }
     }
   ]
