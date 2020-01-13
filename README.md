@@ -7,6 +7,8 @@ git repo that needs to be cloned.
 
 ## Modules Installed
 
+When initially installing magic mirror through `npm install`, the post install script found under `installers/postinstall/postinstall.sh` will install all of the modules below.
+
 1. All the default ones except compliments, helloworld, and update notification
 2. MMM-MyScoreboard
 3. MMM-Remote-Control
