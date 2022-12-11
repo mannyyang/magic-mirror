@@ -61,7 +61,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "console-stamp": "^0.2.9",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "express-ipfilter": "^1.0.1",
     "feedme": "latest",
     "helmet": "^3.21.2",
